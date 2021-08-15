@@ -28,17 +28,17 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`knightpath api-lint DIR`](#knightpath-api-lint-dir)
-* [`knightpath api-list DIR`](#knightpath-api-list-dir)
+* [`knightpath api:lint DIR`](#knightpath-apilint-dir)
+* [`knightpath api:list DIR`](#knightpath-apilist-dir)
 * [`knightpath help [COMMAND]`](#knightpath-help-command)
 
-## `knightpath api-lint DIR`
+## `knightpath api:lint DIR`
 
 scan a directory for unofficial/undocumented api
 
 ```
 USAGE
-  $ knightpath api-lint DIR
+  $ knightpath api:lint DIR
 
 ARGUMENTS
   DIR  [default: .] directory to scan
@@ -47,15 +47,15 @@ OPTIONS
   -h, --help  show CLI help
 ```
 
-_See code: [src/commands/api-lint.ts](https://github.com/knightpath/cli/blob/v0.0.3/src/commands/api-lint.ts)_
+_See code: [src/commands/api/lint.ts](https://github.com/knightpath/cli/blob/v0.0.3/src/commands/api/lint.ts)_
 
-## `knightpath api-list DIR`
+## `knightpath api:list DIR`
 
 Scan directory for APIs
 
 ```
 USAGE
-  $ knightpath api-list DIR
+  $ knightpath api:list DIR
 
 ARGUMENTS
   DIR  [default: .] directory to scan
@@ -65,7 +65,7 @@ OPTIONS
   -o, --output=output  path to output as csv
 ```
 
-_See code: [src/commands/api-list.ts](https://github.com/knightpath/cli/blob/v0.0.3/src/commands/api-list.ts)_
+_See code: [src/commands/api/list.ts](https://github.com/knightpath/cli/blob/v0.0.3/src/commands/api/list.ts)_
 
 ## `knightpath help [COMMAND]`
 
@@ -84,3 +84,54 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.3/src/commands/help.ts)_
 <!-- commandsstop -->
+* [`knightpath api-lint DIR`](#knightpath-api-lint-dir)
+* [`knightpath api-list DIR`](#knightpath-api-list-dir)
+* [`knightpath help [COMMAND]`](#knightpath-help-command)
+
+## `knightpath api-lint DIR`
+
+scan a directory for unofficial/undocumented api
+
+```
+USAGE
+  $ knightpath api:lint DIR
+
+ARGUMENTS
+  DIR  [default: .] directory to scan
+
+OPTIONS
+  -h, --help  show CLI help
+```
+
+
+## `knightpath api-list DIR`
+
+Scan directory for APIs
+
+```
+USAGE
+  $ knightpath api:list DIR
+
+ARGUMENTS
+  DIR  [default: .] directory to scan
+
+OPTIONS
+  -h, --help           show CLI help
+  -o, --output=output  path to output as csv
+```
+
+
+## `knightpath help [COMMAND]`
+
+display help for knightpath
+
+```
+USAGE
+  $ knightpath help [COMMAND]
+
+ARGUMENTS
+  COMMAND  command to show help for
+
+OPTIONS
+  --all  see all commands in CLI
+```

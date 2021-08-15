@@ -1,7 +1,7 @@
 import {Command, flags} from '@oclif/command';
 
-import {scanApiInDir, listFilesResults} from '../api-core';
-import {printWelcome} from '../utils/general';
+import {scanApiInDir, listFilesResults} from '../../api-core';
+import {printWelcome} from '../../utils/general';
 
 export default class ApiList extends Command {
   static description = 'Scan directory for APIs'

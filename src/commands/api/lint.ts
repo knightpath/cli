@@ -1,6 +1,6 @@
 import {Command, flags} from '@oclif/command';
-import {scanApiInDir, listFilesResults} from '../api-core';
-import {printWelcome} from '../utils/general';
+import {scanApiInDir, listFilesResults} from '../../api-core';
+import {printWelcome} from '../../utils/general';
 
 export default class ApiLint extends Command {
   static description = 'scan a directory for unofficial/undocumented api'

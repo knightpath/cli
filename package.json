@@ -49,6 +49,9 @@
   "main": "lib/index.js",
   "oclif": {
     "commands": "./lib/commands",
+    "topics": {
+      "api": { "description": "manage APIs in files" }
+    },
     "bin": "knightpath",
     "plugins": [
       "@oclif/plugin-help"
