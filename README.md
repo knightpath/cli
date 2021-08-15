@@ -4,9 +4,9 @@ knightpath
 Knightpath cmd
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/knightpath.svg)](https://npmjs.org/package/@knightpath/cli)
-[![Downloads/week](https://img.shields.io/npm/dw/knightpath.svg)](https://npmjs.org/package/@knightpath/cli)
-[![License](https://img.shields.io/npm/l/knightpath.svg)](https://github.com/knightpath/cli/blob/master/package.json)
+[![Version](https://img.shields.io/npm/v/@knightpath/cli.svg)](https://npmjs.org/package/@knightpath/cli)
+[![Downloads/week](https://img.shields.io/npm/dw/@knightpath/cli.svg)](https://npmjs.org/package/@knightpath/cli)
+[![License](https://img.shields.io/npm/l/@knightpath/cli.svg)](https://github.com/knightpath/cli/blob/master/package.json)
 
 <!-- toc -->
 * [Usage](#usage)
