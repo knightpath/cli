@@ -19,7 +19,7 @@ $ npm install -g @knightpath/cli
 $ knightpath COMMAND
 running command...
 $ knightpath (-v|--version|version)
-@knightpath/cli/0.0.3 darwin-x64 node-v14.16.0
+@knightpath/cli/0.0.4 darwin-x64 node-v14.16.0
 $ knightpath --help [COMMAND]
 USAGE
   $ knightpath COMMAND
@@ -47,7 +47,7 @@ OPTIONS
   -h, --help  show CLI help
 ```
 
-_See code: [src/commands/api/lint.ts](https://github.com/knightpath/cli/blob/v0.0.3/src/commands/api/lint.ts)_
+_See code: [src/commands/api/lint.ts](https://github.com/knightpath/cli/blob/v0.0.4/src/commands/api/lint.ts)_
 
 ## `knightpath api:list DIR`
 
@@ -65,7 +65,7 @@ OPTIONS
   -o, --output=output  path to output as csv
 ```
 
-_See code: [src/commands/api/list.ts](https://github.com/knightpath/cli/blob/v0.0.3/src/commands/api/list.ts)_
+_See code: [src/commands/api/list.ts](https://github.com/knightpath/cli/blob/v0.0.4/src/commands/api/list.ts)_
 
 ## `knightpath help [COMMAND]`
 

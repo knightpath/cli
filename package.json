@@ -1,7 +1,7 @@
 {
   "name": "@knightpath/cli",
   "description": "Knightpath cli tool",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "knightpath",
   "bin": {
     "knightpath": "./bin/run"
@@ -50,7 +50,9 @@
   "oclif": {
     "commands": "./lib/commands",
     "topics": {
-      "api": { "description": "manage APIs in files" }
+      "api": {
+        "description": "manage APIs in files"
+      }
     },
     "bin": "knightpath",
     "plugins": [
