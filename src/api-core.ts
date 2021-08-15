@@ -5,7 +5,7 @@ import { PATH_TO_APIS_OUTPUT, URL_REGEX } from './consts';
 var urljoin = require('url-join');
 const chalk = require('chalk');
 
-
+const apiData = require('./resources/apis.json')
 
 // const _getDomains = () => {
 //     var apis = JSON.parse(fs.readFileSync(PATH_TO_APIS_OUTPUT, 'utf-8'))
@@ -13,8 +13,8 @@ const chalk = require('chalk');
 // };
 
 const _getDomainsMap = () => {
-    var apis = JSON.parse(fs.readFileSync(PATH_TO_APIS_OUTPUT, 'utf-8'))
-    return apis.reduce((agg, item) => {
+    // var apis = JSON.parse(fs.readFileSync(PATH_TO_APIS_OUTPUT, 'utf-8'))
+    return apiData.reduce((agg, item) => {
         for (const domain of item.domains) {
             agg[domain] = item;
         }
